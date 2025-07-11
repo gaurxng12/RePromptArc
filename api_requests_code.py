@@ -82,8 +82,8 @@ def extract_python_code(text):
 #     return code_block.group(1) if code_block else text 
 
 
-# API_KEY = "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"
-# MODEL = "mistralai/mistral-small-3.1-24b-instruct:free"
+# API_KEY = Open Router API Key
+# MODEL = Open Router Model
 
 # def call_model(prompt, model_name=None):
 #     """
