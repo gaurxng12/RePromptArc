@@ -6,10 +6,10 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Your OpenRouter API Key
-API_KEY = "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"
+API_KEY = Open Router API Key
 
 # OpenRouter model you want to use
-MODEL = "mistralai/mistral-small-3.1-24b-instruct:free"
+MODEL = Open Router Model
 
 def call_model_code(prompt, model_name):
     """
