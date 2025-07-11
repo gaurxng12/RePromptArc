@@ -4,10 +4,10 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Your OpenRouter API Key
-API_KEY = "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"
+API_KEY = Open Router API Key
 
 # OpenRouter model you want to use
-MODEL = "deepseek/deepseek-chat-v3-0324:free"
+MODEL = "Open Router Model
 
 def call_model_prompt(prompt, model_name=None):
     """
